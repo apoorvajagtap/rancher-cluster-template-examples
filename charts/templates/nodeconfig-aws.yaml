@@ -3,8 +3,8 @@
 apiVersion: rke-machine-config.cattle.io/v1
 kind: Amazonec2Config
 metadata:
-  name: {{ $nodepool.name }}
-  namespace: fleet-default
+  name: ajagtap-custom
+  namespace: fleet-default-1
 {{- if $nodepool.ami }}
 ami: {{ $nodepool.ami }}
 {{- end }}
