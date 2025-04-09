@@ -46,7 +46,7 @@ questions:
   show_subquestion_if: true
   subquestions:
   - variable: localClusterAuthEndpoint.fqdn
-    default:
+    default: ""
     description: "Local auth access endpoint FQDN"
     label: "Auth Endpoint FQDN"
     type: hostname
