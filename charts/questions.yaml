@@ -78,7 +78,7 @@ questions:
     type: multiline
     group: "Monitoring"
 - variable: nodepools.0.name
-  default:
+  default: "nodepool1"
   description: "Specify nodepool name"
   type: string
   label: "Nodepool name"
